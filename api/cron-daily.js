@@ -8,7 +8,7 @@ export async function GET(request) {
     });
   }
 
-  console.log('Authentication header is ', authHeader);
+  // todo
 
   try {
     return new Response(JSON.stringify({ success: true }), {

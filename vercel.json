@@ -1,8 +1,8 @@
 {
   "crons": [
     {
-      "path": "/api/index.js",
-      "schedule": "0 19 * * *"
+      "path": "/api/cron-daily.js",
+      "schedule": "0 17 * * *"
     }
   ]
 }
